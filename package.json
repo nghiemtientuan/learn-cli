@@ -7,6 +7,9 @@
     "build": "tsc && shx rm -rf dist/templates && shx cp -r src/templates dist"
   },
   "license": "MIT",
+  "bin": {
+    "learn-cli": "./dist/index.js"
+  },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/ejs": "^2.6.0",
