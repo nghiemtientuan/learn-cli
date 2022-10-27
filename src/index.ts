@@ -100,4 +100,7 @@ inquirer.prompt(QUESTIONS).then((answers: IAnswer) => {
     }
 
     createDirectoryContents(templatePath, name);
+    console.log(
+        chalk.green('Create project success!! Folder is in ' + targetPath)
+    );
 });
